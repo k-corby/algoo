@@ -1,0 +1,189 @@
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1em;
+}
+
+.mrg-top-50 {
+  margin-top: 50px;
+}
+
+.mrg-top-200 {
+  margin-top: 200px;
+}
+
+@media all and (max-width: 700px) {
+  main {
+    grid-column: 1 / 4;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 60px 0;
+  z-index: 1030;
+  background-color: rgb(254, 254, 254, 0%);
+  /*border-bottom: 1px solid #f6f6f7;*/
+}
+
+header nav {
+  margin: 0 auto;
+  /*max-width: 1200px;*/
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+
+main .pt-fs {
+  padding-top: 100vh;
+}
+
+main .row-fluid.fs {
+  height: 100vh;
+}
+
+main .row-fixed {
+  /*position: fixed;*/
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .row-fixed div {
+  width: 100%;
+}
+
+main .row-fixed.header {
+  /*position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;*/
+  height: 100vh;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 5%);
+  /*background: linear-gradient(#ccb4fa, #ccb4fa) 0% 0% / 60% 50%, linear-gradient(#fbee7f, #fbee7f) 60% 0% / 100% 50%, linear-gradient(#f1b3ee, #f1b3ee) 0% 50% / 60% 100%, linear-gradient(#aef2f6, #aef2f6) 60% 50% / 100% 100%;*/
+  background-repeat: no-repeat;
+}
+
+main .row-fixed.header div:nth-child(1) {
+  /*position: relative;
+  top: max(240px, 24vw);
+  left: 0;*/
+}
+
+main .row-fluid, footer .row-fluid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  position: relative;
+  z-index: 2;
+}
+
+main .row-fluid-three {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10vw;
+}
+
+main .row-fluid .col-span {
+  grid-column: 1 / -1;
+}
+
+main .al {
+  text-align: left;
+}
+
+main .am {
+  text-align: center;
+}
+
+main .ar {
+  text-align: right;
+}
+
+main .row-fluid-one-three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+main .sa {
+  margin: 0 0 4vw 4vw;
+}
+
+main .st {
+  margin-top: 5vw;
+}
+
+main .sl {
+  margin-left: 5vw;
+}
+
+main .sr {
+  margin-right: 5vw;
+}
+
+main .sb {
+  margin-bottom: 5vw;
+}
+
+main .row-fluid.img-fluid {
+  margin-bottom: -4px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+main .row-fluid.banner-fluid {
+  height: 20vw;
+}
+
+main .row-fluid.grid-colour {
+  background: linear-gradient(#ccb4fa, #ccb4fa) 0% 0% / 50% 50%, linear-gradient(#fbee7f, #fbee7f) 50% 0% / 100% 50%, linear-gradient(#f1b3ee, #f1b3ee) 0% 50% / 50% 100%, linear-gradient(#aef2f6, #aef2f6) 60% 50% / 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1350px) {
+  main .row-fluid.img-fluid, main .row-fluid.banner-fluid {
+    grid-template-columns: 1fr 1fr;
+    height: unset;
+  }
+  /*main .row-fluid.img-fluid article:nth-child(odd) {
+    display: none;
+  }
+  main .row-fluid.img-fluid article {}
+  main .row-fluid.img-fluid article img {
+    height: 27vw;
+  }*/
+}
+
+@media screen and (max-width: 900px) {
+  main .row-fluid.img-fluid, main .row-fluid.banner-fluid {
+    grid-template-columns: 1fr;
+    height: unset;
+  }
+  main .row-fluid.banner-fluid article {
+    height: 18vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    /*margin-top: 26vw;*/
+  }
+}
+
+@media screen and (max-width: 750px) {
+  main {
+    margin-top: 195px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main .row-fixed {
+    padding: 0 4.7vw;
+  }
+}

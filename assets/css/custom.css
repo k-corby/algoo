@@ -1,0 +1,54 @@
+/*Custom lines diagonal*/
+
+/*
+div {
+    background-image: linear-gradient(135deg, #ffffff 50%, transparent 50%), linear-gradient(#ffffff, #ffffff 46px, #000000 2px, #000000);
+    background-size: 100%, 100% 50px;
+}
+
+.corner-br {
+    background: linear-gradient(to bottom right, #fff 0%, #fff 75%, #f2f2f2 50%, #f2f2f2 100%);
+}
+
+.corner-top {
+    background: linear-gradient(to top right, #fff 0%, #fff 75%, #f2f2f2 50%, #f2f2f2 100%);
+}
+*/
+
+/* Animations */
+
+.rotate-center {
+    /*-webkit-animation: rotate-center 6s linear infinite both;
+    animation: rotate-center 6s linear infinite both;*/
+    animation: 4s linear 0s infinite normal both running rotate-center;
+    width: 170px;
+    height: 170px;
+    border-radius: 90px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    border: 1px dashed #ccb4fa;
+    transform: translate3d(0, 0, 0);
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

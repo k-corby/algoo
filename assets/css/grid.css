@@ -1,0 +1,274 @@
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1em;
+}
+
+.mrg-top-50 {
+  margin-top: 50px;
+}
+
+.mrg-top-200 {
+  margin-top: 200px;
+}
+
+.mrg-top-35 {
+  margin-top: 35%;
+}
+
+.mrg-top-45 {
+  margin-top: 45%;
+}
+
+.pb-200 {
+  padding-bottom: 13vw;
+}
+
+.vw40 {
+  width: 40vw;
+}
+
+.rel {
+  position: relative;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  opacity: 0.07;
+  margin: 14vw 0vw -4vw 7vw;
+}
+
+@media all and (max-width: 700px) {
+  main {
+    grid-column: 1 / 4;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 60px 0;
+  z-index: 1030;
+  background-color: rgb(254, 254, 254, 0%);
+  /*border-bottom: 1px solid #f6f6f7;*/
+}
+
+header nav {
+  margin: 0 auto;
+  /*max-width: 1200px;*/
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+
+main .pt-fs {
+  padding-top: 100vh;
+}
+
+main .row-fluid.fs {
+  height: 100vh;
+}
+
+main .row-fixed {
+  position: fixed;
+  border-bottom: 2px solid #eaeaea;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -9999;
+  height: 100vh;
+  /* MAGIC HAPPENS HERE */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+main .row-fixed #banner {
+  width: 100%;
+}
+
+/*main .row-fixed.header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 5%);
+  background: linear-gradient(#ccb4fa, #ccb4fa) 0% 0% / 60% 50%, linear-gradient(#fbee7f, #fbee7f) 60% 0% / 100% 50%, linear-gradient(#f1b3ee, #f1b3ee) 0% 50% / 60% 100%, linear-gradient(#aef2f6, #aef2f6) 60% 50% / 100% 100%;
+  background-repeat: no-repeat;
+}*/
+
+main .row-fixed.header #banner {
+  position: relative;
+  top: max(240px, 24vw);
+  left: 0;
+}
+
+main .row-fluid, footer .row-fluid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  z-index: 2;
+}
+
+main .col-2 {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+main .row-fluid-three {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10vw;
+}
+
+main .row-fluid .col-span {
+  grid-column: 1 / -1;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+main .al {
+  text-align: left;
+}
+
+main .am {
+  text-align: center;
+}
+
+main .ar {
+  text-align: right;
+}
+
+main .row-fluid-one-three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+main .sa {
+  margin: 0 0 4vw 4vw;
+}
+
+main .pt-vw3 {
+  padding-top: 3vw;
+}
+
+main .pt-vw5 {
+  padding-top: 5vw;
+}
+
+main .mt-vw5 {
+  margin-top: 5vw;
+}
+
+main .pt-vw10 {
+  padding-top: 10vw;
+}
+
+main .ml {
+  margin-left: 7vw;
+}
+
+main .ml9vw {
+  margin-left: 9.5vw
+}
+
+main .mr {
+  margin-right: 7vw;
+}
+
+main .mt {
+  margin-top: 4vw;
+}
+
+main .mb {
+  margin-bottom: 4vw;
+}
+
+main .pl {
+  padding-left: 7vw;
+}
+
+main .pl9vw {
+  padding-left: 9.5vw
+}
+
+main .pr {
+  padding-right: 7vw;
+}
+
+main .pb {
+  padding-bottom: 7vw;
+}
+
+main .pbs {
+  padding-bottom: 2vw;
+}
+
+main .row-fluid.img-fluid {
+  margin-bottom: -4px;
+}
+
+main .row-fluid.banner-fluid {
+  height: 20vw;
+}
+
+main .row-fluid.grid-colour {
+  background: linear-gradient(#ccb4fa, #ccb4fa) 0% 0% / 50% 50%, linear-gradient(#fbee7f, #fbee7f) 50% 0% / 100% 50%, linear-gradient(#f1b3ee, #f1b3ee) 0% 50% / 50% 100%, linear-gradient(#aef2f6, #aef2f6) 60% 50% / 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1350px) {
+  main .row-fluid.img-fluid, main .row-fluid.banner-fluid {
+    grid-template-columns: 1fr 1fr;
+    height: unset;
+  }
+  /*main .row-fluid.img-fluid article:nth-child(odd) {
+    display: none;
+  }
+  main .row-fluid.img-fluid article {}
+  main .row-fluid.img-fluid article img {
+    height: 27vw;
+  }*/
+}
+
+@media screen and (max-width: 900px) {
+  main .row-fluid.img-fluid, main .row-fluid {
+    grid-template-columns: 1fr;
+    height: unset;
+  }
+  main .row-fluid.banner-fluid article {
+    height: 18vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    /*margin-top: 26vw;*/
+  }
+}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 1000px) {
+  main .row-fixed {
+    padding: 0 4.7vw;
+  }
+}
