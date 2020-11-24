@@ -11,7 +11,8 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
 
@@ -19,17 +20,16 @@ export default {
   css: [
     '~/assets/css/main.css',
     '~/assets/css/grid.css',
+
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [
-
-  ],
-  /*devServe: {
+  plugins: ['~plugins/vuetify.js'],
+  devServe: {
     hot: true,
     host: 'localhost',
     port: 3000,
-  },*/
+  },
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -38,6 +38,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -46,5 +47,6 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    vendor: ['vuetify'],
   }
 }

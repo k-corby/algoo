@@ -11,7 +11,7 @@
           >
             <div id="banner">
               <h1 data-scroll data-scroll-speed="1.5">
-                WWe explore, develop <br />& solve <b>Digital problems</b><br />
+                We explore, develop <br />& solve <b>Digital problems</b><br />
                 for humans.
               </h1>
               <p data-scroll data-scroll-speed="1">
@@ -23,11 +23,11 @@
                 data-scroll-speed="2"
                 id="scroll-down"
                 href="#page-2"
-                ><downarrow />
+                ><DownArrow />
               </a>
             </div>
           </div>
-          <div class="row-fluid bg-white pb" data-anchor="Page 1">
+          <!--<div class="row-fluid bg-white pb" data-anchor="Page 1">
             <div class="sticky ar col-span">
               <div data-scroll>01.</div>
               <h1 data-scroll class="heading">Research.</h1>
@@ -134,7 +134,8 @@
                 own businesses.
               </p>
             </div>
-          </div>
+          </div>-->
+          <PortfolioList />
           <div class="row-fluid img-fluid bg-white" data-anchor="Page 3">
             <div class="col-span pl pr pt-vw10 pb bg-blue text-white">
               <h1 class="mrg-top poppins trans-stroke">Recent work.</h1>

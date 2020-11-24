@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Navigation />
+    <AppNavigation />
     <Nuxt />
-    <Footer />
+    <AppFooter />
   </div>
 </template>
 <script>
