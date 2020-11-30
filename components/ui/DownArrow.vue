@@ -1,0 +1,65 @@
+<template>
+  <svg width="45" height="71" xmlns="http://www.w3.org/2000/svg">
+    <g>
+      <rect
+        x="-1"
+        y="-1"
+        width="47"
+        height="73"
+        id="canvas_background"
+        fill="none"
+      />
+      <g id="canvasGrid" display="none">
+        <rect
+          id="svg_4"
+          width="100%"
+          height="100%"
+          x="0"
+          y="0"
+          stroke-width="0"
+          fill="url(#gridpattern)"
+        />
+      </g>
+    </g>
+    <g>
+      <line
+        fill="none"
+        stroke="#000"
+        stroke-width="2"
+        x1="22.3"
+        y1="1"
+        x2="22"
+        y2="68.29353"
+        id="svg_1"
+        stroke-linejoin="undefined"
+        stroke-linecap="undefined"
+      />
+      <line
+        stroke="#000"
+        fill="none"
+        stroke-width="2"
+        x1="19.99497"
+        y1="54.53874"
+        x2="37.71903"
+        y2="65.24696"
+        id="svg_3"
+        stroke-linejoin="undefined"
+        stroke-linecap="undefined"
+        transform="rotate(-81 28.85700035095216,59.89285278320313) "
+      />
+      <line
+        stroke="#000"
+        fill="none"
+        stroke-width="2"
+        x1="6.67532"
+        y1="54.87828"
+        x2="23.18168"
+        y2="65.69314"
+        id="svg_5"
+        stroke-linejoin="undefined"
+        stroke-linecap="undefined"
+        transform="rotate(13.999748229980469 14.928500175476064,60.28571319580079) "
+      />
+    </g>
+  </svg>
+</template>
