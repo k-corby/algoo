@@ -25,11 +25,11 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   //plugins: ['~plugins/vuetify.js'],
-  devServe: {
-    hot: true,
-    host: 'localhost',
-    port: 3000,
-  },
+  //devServe: {
+    //hot: true,
+    //host: 'localhost',
+    //port: 3000,
+  //},
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,

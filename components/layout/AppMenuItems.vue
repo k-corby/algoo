@@ -1,5 +1,11 @@
 <template>
-  <a id="home" href="#">
-    <span>ABOUT</span>
-  </a>
+  <div>
+  <NuxtLink id="home" to="/">
+    <span>Home</span>
+  </NuxtLink> 
+  <NuxtLink id="home" to="/about">
+    <span>About</span>
+  </NuxtLink> 
+  
+  </div>
 </template>
