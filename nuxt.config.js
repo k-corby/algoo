@@ -26,9 +26,9 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   //plugins: ['~plugins/vuetify.js'],
   //devServe: {
-    //hot: true,
-    //host: 'localhost',
-    //port: 3000,
+  //  hot: true,
+  //  host: 'localhost',
+   // port: 3001,
   //},
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -38,11 +38,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    //'@nuxtjs/vuetify',
+   
 
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

@@ -1,5 +1,5 @@
 <template>
-  <Slide right width="100">
+  <Slide right width="1200">
     <AppMenuItems />
   </Slide>
 </template>
@@ -16,6 +16,6 @@ export default {
 
 <style>
 .bm-cross-button {
-  left: 10vw;
+  left: 30vw;
 }
 </style>

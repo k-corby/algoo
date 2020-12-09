@@ -1,10 +1,8 @@
 <template>
   <div>
-    <div
-      v-for="item in data.items"
+    <div v-for="item in data.items"
       :key="item.id"
-      class="row-fluid bg-white pb"
-    >
+      class="row-fluid bg-white pb">
       <div class="sticky ar col-span">
         <div class="number">{{ item.id }}</div>
         <h1 class="heading">{{ item.section }}</h1>

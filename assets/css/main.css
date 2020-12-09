@@ -158,7 +158,7 @@ header #logo {
 
 header #logo a {
   cursor: pointer;
-  font-size: 4.4rem;
+  font-size: 5vw;/* 4.4rem */
   font-family: lemongrass-script, sans-serif;
   color: #ffffff;
   background-color: #202020;  
