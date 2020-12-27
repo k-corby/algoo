@@ -9,15 +9,16 @@
     "start": "nuxt-ts start"
   },
   "dependencies": {
+    "@mdi/font": "^5.8.55",
     "@nuxt/typescript-runtime": "^2.0.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "vue-burger-menu": "^2.0.5",
-    "locomotive-scroll": "^3.0.4"
+    "vue-burger-menu": "^2.0.5"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/vuetify": "^1.11.2",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0"
   }

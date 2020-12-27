@@ -1,11 +1,13 @@
 <template>
   <div>
-  <NuxtLink id="home" to="/">
-    <span>Home</span>
-  </NuxtLink> 
-  <NuxtLink id="home" to="/about">
-    <span>About</span>
-  </NuxtLink> 
-  
+    <NuxtLink to="/">
+      <span>Home</span>
+    </NuxtLink> 
+    <NuxtLink to="/about">
+      <span>About</span>
+    </NuxtLink>
+    <NuxtLink to="/portfolio">
+      <span>Portfolio</span>
+    </NuxtLink>
   </div>
 </template>

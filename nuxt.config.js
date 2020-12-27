@@ -19,17 +19,20 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '~/assets/css/main.css',
-    '~/assets/css/grid.css',
+    '~/assets/css/grid.css'
 
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  //plugins: ['~plugins/vuetify.js'],
-  //devServe: {
-  //  hot: true,
-  //  host: 'localhost',
-   // port: 3001,
-  //},
+  plugins: [
+    '~plugins/vuetify.js'
+    //{ src: '~/plugins/vue-burger-menu.js', mode: 'client' }
+    ],
+  devServe: {
+    hot: true,
+    host: 'localhost',
+    port: 3000,
+  },
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -38,18 +41,21 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    //'@nuxtjs/vuetify',
-   
-
+    '@nuxtjs/vuetify',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-
+    //'@nuxtjs/vuetify'
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    // vendor: ['vuetify'],
+    //filenames: {
+      //app: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js',
+      //chunk: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js'
+    //},
+    vendor: ['vuetify'],
+    //vendor: ['vue-burger-menu']
   }
 }

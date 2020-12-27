@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:500');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@900&display=swap');
 @import url("https://use.typekit.net/njb4prh.css");
 * {
@@ -146,8 +146,8 @@ p {
 /* Navigation */
 
 header #logo {
-  margin-top: -3px;
-  padding-left: 75px;
+  margin-top: -5px;
+  padding-left: 60px;
 }
 
 * {
@@ -158,12 +158,18 @@ header #logo {
 
 header #logo a {
   cursor: pointer;
-  font-size: 5vw;/* 4.4rem */
-  font-family: lemongrass-script, sans-serif;
-  color: #ffffff;
-  background-color: #202020;  
-  border-radius: 80px;
-  padding: 0px 20px;  
+  font-size: 4vw;/* 4.4rem */
+  font-family: martel,lemongrass-script, sans-serif;
+  /*font-family: Poppins, Arial;*/
+  color: #FFF;
+  text-decoration:underline;
+  text-decoration-color: #fde637;
+    /*background-color: #fde637;*/
+  /*ffd508  f2c744 ffcb0f fde637*/
+  letter-spacing:-3px;
+  background-color: #000;  
+  /*border-radius: 80px;*/
+  padding: 0px 20px; 
 }
 
 header #menu {
@@ -228,7 +234,7 @@ header .nav .icon {
 /* Header */
 
 main #banner {
-  padding-left: 80px;
+  padding-left: 10vw;
   /*padding-top: max(240px, 24vw);
   padding-bottom: 150px;*/
   max-width: 1400px;
@@ -236,14 +242,18 @@ main #banner {
 }
 
 main #banner h1 {
-  font-family: mostra-nuova, sans-serif, 'Poppins', Tiro Bangla, Georgia, 'Times New Roman', Times, serif;
-  /*font-size: min(max(48px, 6vw), 80px);*/
-  letter-spacing: -3px;
+  font-family: /*mostra-nuova, sans-serif, */ 'Poppins', Tiro Bangla, Georgia, 'Times New Roman', Times, serif;
+  font-size: min(max(48px, 6vw), 80px);
+  letter-spacing: -4px;
   font-weight: 300;
-  text-transform: uppercase;
+  text-transform:none;
   flex: 0 0 95%;
   max-width: 95%;
   margin: 0 0 20px 0;
+}
+
+main #banner h1 b{
+  font-weight:600;
 }
 
 main h1.br-top:before {
@@ -276,8 +286,8 @@ main #banner #scroll-down {
   bottom: 0px;
   right: 4%;  
   padding: 700px 10px 39px 10px;
-  background: url('~../img/2.png') no-repeat center;
-  background-size: 50px;
+  /*background: url('~../img/2.png') no-repeat center;
+  background-size: 50px;*/
 }
 
 /* Thumbnail */
@@ -529,6 +539,10 @@ main .faded.faded-all:after {
 .front-opac {
   z-index: 30;
   opacity: 0.9;
+}
+
+.lwhite{
+  background-color:#F1F1F1;
 }
 
 .yellow {

@@ -11,11 +11,12 @@
           >
             <div id="banner">
               <h1 data-scroll data-scroll-speed="1.5">
-                We explore, develop <br />& solve <b>Digital problems</b><br />
+                We explore, develop <br />& solve <b>digital problems</b><br />
                 for humans.
               </h1>
               <p data-scroll data-scroll-speed="1">
-                Learn how to solve simple to complex programming problems.
+              A design agency built to build modern brands.
+                              <!-- Learn how to solve simple to complex programming problems.-->
               </p>
 
               <a
@@ -27,7 +28,7 @@
               </a>
             </div>
           </div>
-          <PortfolioList />
+       
           <div class="row-fluid img-fluid bg-white" data-anchor="Page 3">
             <div class="col-span pl pr pt-vw10 pb bg-blue text-white">
               <h1 class="mrg-top poppins trans-stroke">Recent work.</h1>
@@ -71,6 +72,7 @@
               </div>
             </article>
           </div>
+            <PortfolioList />
           <div
             class="row-fluid bg-white"
             style="padding-top: 250px"
@@ -90,7 +92,7 @@
               </h1>
               <p>
                 We break down programming concepts to simple pseudocode and then
-                show you how to program them.
+                show you how to program them....
               </p>
               <p class="mrg-top">
                 <a class="btn btn-fixed" href="/home/philosophy"
