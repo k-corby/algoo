@@ -5,7 +5,7 @@
         <div id="logo">
           <NuxtLink to="/">a</NuxtLink>
         </div>
-       <v-main>
+      <!-- <v-main>
   <div class="text-center">
     <v-menu
       v-model="menu"
@@ -95,7 +95,7 @@
       </v-card>
     </v-menu>
   </div>
-      </v-main>
+      </v-main>-->
         <!--<Slide />-->
       </nav>
     </header>
