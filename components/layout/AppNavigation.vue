@@ -5,6 +5,26 @@
         <div id="logo">
           <NuxtLink to="/">a</NuxtLink>
         </div>
+        <div id="menu">
+       <!-- <a class="main-link" href="">Home</a>
+        <a class="main-link" href="">About</a>
+        <a class="main-link" href="">Work</a>
+        <a class="main-link" href="">Contact</a>-->
+        <a href="">
+       <!-- <svg height="45" viewBox="0 -66 335.628 335" width="45" xmlns="http://www.w3.org/2000/svg"><path d="m328.628906 94.3125h-321.628906c-3.867188 0-7 3.136719-7 7 0 3.867188 3.132812 7 7 7h321.628906c3.863282 0 7-3.132812 7-7 0-3.863281-3.136718-7-7-7zm0 0"/><path d="m328.628906.3125h-321.628906c-3.867188 0-7 3.136719-7 7 0 3.867188 3.132812 7 7 7h321.628906c3.863282 0 7-3.132812 7-7 0-3.863281-3.136718-7-7-7zm0 0"/></svg>-->
+    
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
+<g>
+	<rect y="200" width="500" height="22"/>
+	<rect y="110" width="500" height="22"/>
+	
+</g>
+</svg>
+
+        </a>
+        </div>
       <!-- <v-main>
   <div class="text-center">
     <v-menu

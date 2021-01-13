@@ -105,7 +105,7 @@ main .row-fixed #banner {
 
 main .row-fixed.header #banner {
   position: relative;
-  top: max(240px, 24vw);
+  top: max(260px, 28vw);
   left: 0;
 }
 

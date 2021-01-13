@@ -166,14 +166,13 @@ header #logo {
 
 header #logo a {
   cursor: pointer;
-  font-size: 4vw;/* 4.4rem */
-  font-family: 'Martel',lemongrass-script, sans-serif;
+  font-size: 2.5vw;/* 4.4rem */
+  font-family: 'Poppins',lemongrass-script, sans-serif;
   font-weight:800;
   /*font-family: Poppins, Arial;*/
   color: #FFF;
-  text-decoration:underline;
-  text-decoration-color:white;
   background-color:#000;
+  letter-spacing:10px;
   background-color:none;
  
 
@@ -182,7 +181,7 @@ header #logo a {
   letter-spacing:-7px;
   background-color: #000;  
   /*border-radius: 80px;*/
-  padding: 5px 25px 5px 25px; 
+  padding: 5px 15px 5px 25px; 
 }
 
 header #menu {
@@ -262,7 +261,7 @@ main #banner {
 }
 
 main #banner h1 {
-  font-family:/*mostra-nuova, sans-serif'PT Serif', , */'Martel','Poppins', Tiro Bangla, Georgia, 'Times New Roman', Times, serif;
+  font-family:/*mostra-nuova, sans-serif'PT Serif', , */'Poppins','Martel','Poppins', Tiro Bangla, Georgia, 'Times New Roman', Times, serif;
   font-size: min(max(48px, 12vw), 115px);
   letter-spacing: -4px;
   line-height:10vw;
@@ -274,7 +273,7 @@ main #banner h1 {
 }
 
 main #banner h1 b{
-  font-family:'Martel';
+  font-family:'Poppins';
   color:#FFF;
   font-weight:700;
   /*ffd508  f2c744 ffcb0f fde637 FFC300 ffce30 ffdd33*/

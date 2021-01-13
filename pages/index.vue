@@ -10,25 +10,33 @@
             data-anchor="Page 1"
           >
             <div id="banner">
-              <h1 data-scroll data-scroll-speed="1.5">
-                We explore, develop <br />& solve <b>digital problems</b><br />
-                for humans.
+           
+              <h1 data-scroll data-scroll-speed="1.5" class="br-top">
+             <!--DIGITAL AGENCY<br>
+              modern brands<span style="font-family:Muli; color:#FFC300;">.</span><br>
+              <span style="font-weight:500; text-transform:uppercase; font-size:7.5vw;">digital agency</span> 
+              <!--a digital agency<br><b>crafting unique </b><br>
+                ideas for humans.
+              <!--<b style="font-size:10vw; font-weight:700; letter-spacing:5px;">A Unique </b><br>
+                <b style="margin-left:0vw;font-size:9vw; text-transform:;letter-spacing:-4px; line-height:10vw;">Digital Agency.</b><br>
+               -->
+               <b>hand crafted</b><br />
+               ideas <span class="text-white">&</span> brands.
+              
+               
+               
               </h1>
               <p data-scroll data-scroll-speed="1">
               A design agency built to build modern brands.
                               <!-- Learn how to solve simple to complex programming problems.-->
               </p>
-
-              <a
-                data-scroll
-                data-scroll-speed="2"
-                id="scroll-down"
-                href="#page-2"
-                ><DownArrow />
-              </a>
+             <!--<div id="circle"></div>
+              <div id="circle1"></div>-->
+             <div id="scroll-down">scroll<!--<DownArrow />--></div>
             </div>
+            
           </div>
-       
+       <PortfolioList />
           <div class="row-fluid img-fluid bg-white" data-anchor="Page 3">
             <div class="col-span pl pr pt-vw10 pb bg-blue text-white">
               <h1 class="mrg-top poppins trans-stroke">Recent work.</h1>
@@ -72,7 +80,7 @@
               </div>
             </article>
           </div>
-            <PortfolioList />
+           
           <div
             class="row-fluid bg-white"
             style="padding-top: 250px"
@@ -106,12 +114,3 @@
     </div>
   </div>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-
-export default Vue.extend({});
-</script>
-
-<style>
-</style>

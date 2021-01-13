@@ -25,7 +25,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    '~plugins/vuetify.js'
+    //'~plugins/vuetify.js'
     //{ src: '~/plugins/vue-burger-menu.js', mode: 'client' }
     ],
   devServe: {
@@ -41,7 +41,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@nuxtjs/vuetify',
+   // '@nuxtjs/vuetify',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -55,7 +55,7 @@ export default {
       //app: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js',
       //chunk: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js'
     //},
-    vendor: ['vuetify'],
+    //vendor: ['vuetify'],
     //vendor: ['vue-burger-menu']
   }
 }
