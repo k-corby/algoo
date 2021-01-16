@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -85,12 +87,12 @@ h2 {
 }
 
 h4 {
-  font-size: min(max(16px, 4vw), 47px);
+  font-size: min(max(16px, 3vw), 38px);
   letter-spacing: 0px;
-  font-weight: 700;
+  font-weight: 800;
   margin: 0 0 30px 0;
   line-height: 122%;
-  font-family: Tiro Bangla, stix-two-text, Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Martel',Tiro Bangla, stix-two-text, Georgia, 'Times New Roman', Times, serif;
 }
 
 hr {
@@ -119,6 +121,13 @@ a:hover {
 p {
   font-size: 128%;
   line-height: 32px;
+}
+
+.bold{
+  font-weight:900;
+  font-family:'Martel';
+  font-size:3vw;
+  letter-spacing:-3px;
 }
 
 .btn {
@@ -154,7 +163,7 @@ p {
 /* Navigation */
 
 header #logo {
-  margin-top: -20px;
+  margin-top: -10px;
   padding-left: 5vw;
 }
 
@@ -168,13 +177,12 @@ header #logo a {
   cursor: pointer;
   font-size: 4vw;/* 4.4rem */
   font-family: 'Martel',lemongrass-script, sans-serif;
-  font-weight:800;
+  font-weight:900;
   /*font-family: Poppins, Arial;*/
   color: #FFF;
   text-decoration:underline;
-  text-decoration-color:white;
-  background-color:#000;
-  background-color:none;
+  text-decoration-color:#FDF36E;
+  background-color:blue;
  
 
     /*background-color: #fde637;*/
@@ -182,7 +190,7 @@ header #logo a {
   letter-spacing:-7px;
   background-color: #000;  
   /*border-radius: 80px;*/
-  padding: 5px 25px 5px 25px; 
+  padding: 0px 25px 0px 25px; 
 }
 
 header #menu {
@@ -259,27 +267,39 @@ main #banner {
   padding-bottom: 150px;*/
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 main #banner h1 {
-  font-family:/*mostra-nuova, sans-serif'PT Serif', , */'Martel','Poppins', Tiro Bangla, Georgia, 'Times New Roman', Times, serif;
-  font-size: min(max(48px, 12vw), 115px);
-  letter-spacing: -4px;
-  line-height:10vw;
-  font-weight: 500;
+  font-family:/*mostra-nuova, sans-serif'PT Serif', , */'Poppins','Poppins', Tiro Bangla, Georgia, 'Times New Roman', Times, serif;
+  font-size: min(max(48px, 12vw), 105px);
+  letter-spacing: -6px;
+  line-height:95%;
+  font-weight: 900;
   color:#000;
   flex: 0 0 95%;
   max-width: 95%;
+  text-transform:uppercase;
   margin: 0 0 20px 0;
 }
 
 main #banner h1 b{
-  font-family:'Martel';
+  font-family:'poppins','Tiro Bangla', Arial;
   color:#FFF;
-  font-weight:700;
+  font-weight:800;
+  text-transform:uppercase;  
+  font-style:bold;
   /*ffd508  f2c744 ffcb0f fde637 FFC300 ffce30 ffdd33*/
-  font-size: min(max(48px, 12vw), 115px);
-  letter-spacing:-4px;
+  font-size: min(max(48px, 12vw), 105px);
+  letter-spacing:-6px;
+}
+
+main #banner u{
+  text-decoration:underline;
+  font-weight:100;
+  font-style:normal;
+  letter-spacing:-10px;
+  text-decoration-color:blue;
 }
 
 main #banner #circle{
@@ -315,22 +335,22 @@ main #banner hr{
 main h1.br--top:before {
   display: block;
   content: '';
-  width: 10%;
-  right:0;
-  height:900px;
-  margin-top:-700px;
-  margin-left:-10vw;
+  width: 500px;
+  height:500px;
+  margin-left:70vw;
+  margin-top:-600px;
   margin-bottom: 40px;
-  background-color: none  ;
+  background-color: white  ;
   position:fixed;
+  border-radius:800px;
   z-index:-1;
 }
 
 main h1.br--top:after {
   display: block;
   content: '';
-  width: 10%;
-  height:100px;
+  width: 50%;
+  height:200px;
   margin-top:-700px;
   margin-left:-10vw;
   margin-bottom: 40px;
@@ -338,7 +358,7 @@ main h1.br--top:after {
   position:fixed;
   right:0;
   bottom:0;
-  z-index:-1;
+  z-index:-2;
 }
 
 
@@ -349,7 +369,7 @@ main .header h1 u {
   font-weight: 400;
 }
 
-main #banner p, main p.caption {
+main p.caption {
   max-width: 100%;
   line-height: 32px;
   font-weight: 100;
@@ -361,14 +381,19 @@ main #banner p, main p.caption {
 main #banner #scroll-down {
   position: fixed;
   bottom: 0px;
-  background-color:#000;
-  right: 50%;
+  right: 6%;
+  letter-spacing:2px;
+  text-transform:uppercase;
   color:#FFF;
-  /*padding:600px 20px 10px 20px;  
-  padding: 700px 10px 39px 10px;*/
-  /*background: url('~../img/2.png') no-repeat center;
-  background-size: 40px;
-  background-position:200px 0;*/
+  background-color:blue;
+  padding:30px 0px;
+  font-family:'Poppins';
+  font-size:1.3vw; 
+  font-weight:600;
+  /*padding: 700px 10px 39px 10px;
+  background: url('~../img/2.png') no-repeat center;
+  background-size: 40px;*/
+  writing-mode: vertical-rl;
 }
 
 /* Thumbnail */
@@ -627,20 +652,24 @@ main .faded.faded-all:after {
 }
 
 .yellow {
- /*background-color:#ffdd33;*/
- background-color: #FAE766;
+ /*background-color:#ffdd33; FAE766*/
   
   /*ffd508  f2c744 ffcb0f fde637 FFC300 ffce30 ffdd33*/
 
-  /*background: #ffdd33;
-  background-image: linear-gradient(to bottom, #ffe323, #ffe128, #ffe02c, #ffde2f, #ffdd33);
-  background: linear-gradient(to bottom, #ffdd33 0%, #EBCB4F 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffdd33), color-stop(100%, #EBCB4F));
-  background: -webkit-linear-gradient(top, #ffdd33 0%, #EBCB4F 100%);
-  background: -moz-linear-gradient(top, #ffdd33 0%, #EBCB4F 100%);
-  background: -o-linear-gradient(top, #ffdd33 0%, #EBCB4F 100%);
-  background: -ms-linear-gradient(top, #ffdd33 0%, #EBCB4F 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd33', endColorstr='#EBCB4F', GradientType=0);
+  background:#FAE745;
+
+background: rgb(255,221,51);
+background: radial-gradient(circle, rgba(255,221,51,1) 0%, rgba(255,206,48,1) 100%);
+/*
+   background-image: linear-gradient(to right bottom, #ffd700, #ffd312, #ffcf1d, #ffcb25, #ffc72c);
+  background-image: linear-gradient(to bottom, #FAE766, #ffe128, #ffe02c, #ffde2f, #ffdd33);
+  background: linear-gradient(to bottom, #FAE766 0%, #ffdd70 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FAE766), color-stop(100%, #ffdd70));
+  background: -webkit-linear-gradient(top, #FAE766 0%, #ffdd70 100%);
+  background: -moz-linear-gradient(top, #FAE766 0%, #ffdd70 100%);
+  background: -o-linear-gradient(top, #FAE766 0%, #ffdd70 100%);
+  background: -ms-linear-gradient(top, #FAE766 0%, #ffdd70 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAE766', endColorstr='#ffdd70', GradientType=0);
   border: 1px solid #DCBC40;
   box-shadow: inset 0 1px 0 #FFE96D;
   -webkit-box-shadow: inset 0 1px 0 #FFE96D;
@@ -712,6 +741,10 @@ main .faded.faded-all:after {
   border-top: 16px solid #FFC107;
 }
 
+.text-pink{
+  color:pink;
+}
+
 .text-white {
   color: #FFFFFF;
 }
@@ -726,6 +759,10 @@ main .faded.faded-all:after {
 
 .text-yellow{
   color:#FAE75D; 
+}
+
+.text-blue{
+  color:blue;
 }
 
 /*.bg-purple:hover {
@@ -829,4 +866,4 @@ main .faded.faded-all:after {
   header #menu .main-link label {
     padding: 0;
   }
-} 
+}

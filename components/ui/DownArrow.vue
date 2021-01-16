@@ -64,7 +64,7 @@
     <g>
       <line
         fill="none"
-        stroke="#000"
+        stroke="#fff"
         stroke-width="2"
         x1="22.3"
         y1="1"
