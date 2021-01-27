@@ -30,7 +30,12 @@ export default {
     ],
   devServe: {
     hot: true,
-    host: 'localhost',
+    host: '0.0.0.0',
+    port: 3000,
+  },
+  
+  server: {
+    host: '0.0.0.0', // default: localhost
     port: 3000,
   },
 
